@@ -1,6 +1,6 @@
 @echo off
 cls
-set "date=04/01"
+set "date=04/01" :: format month/day
 set "hour=11:00"
 
 at %hour% %date%/2025 smb.bat
