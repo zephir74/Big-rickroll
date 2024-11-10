@@ -7,7 +7,7 @@ set "subnet=192.168.1" :: replace 192.168.1 by ur subnet
 
 set "targets="
 
-for /L %%i in (1,1,254) do (
+for /L %%i in (1,1,255) do (
     set "ip=%subnet%.%%i"
 
     ping -n 1 -w 1000 %ip% >nul
