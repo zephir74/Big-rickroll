@@ -19,3 +19,6 @@ for /L %%i in (1,1,254) do (
 for /f "tokens=*" %%A in (%targets%) do (
     net use \\%%A\path\to\rickroll.bat /user:username password
 )
+
+timeout 213
+net use * /delete
