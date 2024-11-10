@@ -3,7 +3,7 @@ cls
 
 setlocal enabledelayedexpansion
 
-set "subnet=" :: 192.168.1 for example
+set "subnet=192.168.1" :: replace 192.168.1 by ur subnet
 
 set "targets="
 
