@@ -9,3 +9,5 @@ Setup ur username and password in smb.bat, setup the date of the rickroll in sta
 - Smb activated on all computers on the network
 
 - Windows (don't work for linux)
+
+- vlc (or something to read the video)
