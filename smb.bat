@@ -17,7 +17,7 @@ for /L %%i in (1,1,255) do (
 )
 
 for /f "tokens=*" %%A in (%targets%) do (
-    net use \\%%A\path\to\rickroll.bat /user:username password
+    net use \\%%A\path\to\rickroll.bat /user:username password :: make sure you entered the good path
 )
 
 timeout 213
