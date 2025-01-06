@@ -11,3 +11,5 @@ Setup ur username and password in smb.bat, setup the date of the rickroll in sta
 - Windows (don't work for linux)
 
 - vlc (or something to read the video)
+
+# Make sure you have already connected to the targeted computer, else it won't work !
